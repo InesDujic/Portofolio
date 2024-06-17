@@ -1,279 +1,329 @@
-#services{
-    height: 800px;
-    width: 100%;
-    margin-top: 0px;
+#services {
+  height: 700px;
+  width: 100vw;
+  margin-top: 0px;
 }
-.gornji{
-    height: 300px;
-    width: 44%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.gornji {
+  width: 54%;
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.donji{
-    height: 500px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.donji {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
-.textSer{
-    margin-top: 120px;
-    color: rgb(141,145,161);
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
+.textSer {
+  margin-top: 120px;
+  color: rgb(141, 145, 161);
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.qualitySer{
-    font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    margin-top: 0px;
-    margin-left: 120px;
+.qualitySer {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: 0px;
 }
-.div1{
-    height: 400px;
-    width: 20%;
-    background-color: rgb(247,247,247);
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
+.div1 {
+  background-color: rgb(247, 247, 247);
+  margin: 20px;
+  display: grid;
+  flex-direction: column;
 }
-li{
-    color: rgb(152,155,170);
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
-    font-size: medium;
+li {
+  color: rgb(152, 155, 170);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  font-size: medium;
 }
-ul{
-    margin-top: 20px;
+ul {
+  margin-top: 20px;
 }
-.naslovi{
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    margin-left: 40px;
-    margin-top: 30px;
+i{
+  justify-self: center;
 }
-.linija{
-    color: rgb(235,235,235);
-    align-self: center;
+.naslovi {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: 30px;
+  justify-self: center;
 }
-.border{
-    height: 8px;
-    width: 250px;
-    background-color: rgb(217,217,217);
-    margin-top: 40px;
+.linija {
+  color: rgb(235, 235, 235);
+  align-self: center;
+  justify-self: center;
 }
-#portofolio{
-    height: 750px;
-    width: 100%;
-    background-color: rgb(247,247,247);
+.border {
+  width: 250px;
+  background-color: rgb(217, 217, 217);
 }
-.gornjiPort{
-    height: 300px;
-    width: 44%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#portofolio {
+  height: 650px;
+  width: 100vw;
+  background-color: rgb(247, 247, 247);
 }
-.namePort{
-    font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    margin-top: 0px;
-    margin-left: 130px;
+.gornjiPort {
+  width: 54%;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.slikePort{
-    display: flex;
-    justify-content: center;
+.namePort {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: 0px;
 }
-.divPort{
-    height: 290px;
-    width: 290px;
-    background-color: aqua;
-    margin: 25px;
+.slikePort {
+  display: flex;
+  justify-content: center;
 }
-.slika1p{
-    background-image: url(./slike/2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.divPort {
+  height: 350px;
+  width: 350px;
+  width: 290px;
+  background-color: aqua;
+  margin: 25px;
 }
-.slika2p{
-    background-image: url(./slike/3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.slika1p {
+  background-image: url(./slike/IMG_2399.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.slika3p{
-    background-image: url(./slike/4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.slika2p {
+  background-image: url(./slike/IMG_2401.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-#timeline{
-    height: 900px;
-    width: 100%;
+.slika3p {
+  background-image: url(./slike/IMG_2403.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.upper{
-    height: 300px;
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#timeline {
+  height: 850px;
+  width: 100vw;
 }
-.textTime{
-    margin-top: 120px;
-    color: rgb(141,145,161);
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
+.upper {
+  width: 54%;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.nameTime{
-    font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    margin-top: 0px;
-    margin-left: 120px;
+.textTime {
+  margin-top: 120px;
+  color: rgb(141, 145, 161);
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.downT{
-    height: 650px;
-    width: 100%;
-    display: flex;
-    align-items: center;
+.nameTime {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: 0px;
+  justify-self: center;
+}
+.downT {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.leftTime {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.experience {
+  width: 430px;
+  background-color: rgb(234, 234, 234);
+  margin-right: 25px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.divTime {
+  height: 110px;
+  width: 430px;
+  background-color: rgb(247, 247, 247);
+  border-left: 6px solid rgb(222, 222, 222);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.rightTime {
+  width: 48%;
+  display: grid;
+  flex-direction: column;
+  margin-left: 15px;
 
 }
-.leftTime{
+.wtf{
+  margin-left: 10px;
+  display: grid;
+  justify-self: flex-start;
+}
+.education {
+  height: 50px;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.maliDiv {
+  height: 30px;
+  width: 110px;
+  background-color: white;
+  color: rgb(174, 177, 189);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  margin-right: 10px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-self: flex-end;
+}
+.naslovTime {
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+}
+.podnaslov {
+  color: rgb(134, 138, 155);
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+#feedback {
+  height: 700px;
+  width: 100vw;
+  background-color: rgb(247, 247, 247);
+}
+.downFeed {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.gornjiFeed {
+  width: 48%;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gornjiFeed1{
+  width: 58%;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainFeed {
+  width: 65%;
+  background-color: white;
+}
+.sivi {
+  margin-top: 0px;
+  width: 100vw;
+  background-color: rgb(234, 234, 234);
+  display: flex;
+}
+.imeIprezime {
+  margin-top: 0px;
+  width: 45%;
+  background-color: rgb(234, 234, 234);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 3%;
+}
+.bijeli {
+  width: 100vw;
+}
+.albert {
+  background-color: rgb(234, 234, 234);
+  margin-top: 10;
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.graphic {
+  margin-top: 5px;
+  color: rgb(134, 138, 155);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.divCovjek {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slikaCovjek {
+  width: 60px;
+  border-radius: 100%;
+}
+.textDivf {
+  height: 250px;
+  width: 60%;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgb(134, 138, 155);
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+@media only screen and (max-width: 1023px) {
+  .experience {
+    width: 380px;
+  }
+  .divTime {
+    width: 380px;
+  }
+  .div1 {
+    width: 35%;
+    margin-left: 5px;
+  }
+  .border {
+    width: 230px;
+  }
+  .donji{
+    flex-wrap: wrap;
+  }
+  #services{
+    height: 1200px;
+  }
+  .slikePort{
+    flex-wrap: wrap;
+  }
+  #portofolio{
+    height: 1100px;
+  }
+  #feedback{
+    height: 900px;
+  }
+  .bijeli{
+    height: 500px;
+  }
+  .textDivf {
+    height: 450px;
     width: 50%;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-}
-.experience{
-    height: 70px;
-    width: 430px;
-    background-color: rgb(234,234,234);
-    margin-right: 25px;
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-}
-.divTime{
-    height: 120px;
-    width: 430px;
-    background-color: rgb(247, 247, 247);
-    border-left: 6px solid rgb(222, 222, 222);
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.rightTime{
-    width: 48%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 15px;
-}
-.education{
-    margin-left: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-}
-.maliDiv{
-    height: 40px;
-    width: 110px;
-    background-color: white;
-    color: rgb(174,177,189);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-self: flex-end;
-    margin-left: 120px;
-    font-size: 13px;
-    font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.naslovTime{
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 0;
-}
-.podnaslov{
-    color: rgb(134,138,155);
-    margin-top: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-}
-#feedback{
-    height: 830px;
-    width: 100%;
-    background-color: rgb(247,247,247);
-}
-.downFeed{
-height: 450px;
-width: 100%;
-display: flex;
-justify-content: center;
-}
-.gornjiFeed{
-    height: 270px;
-    width: 47%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.mainFeed{
-    height: 480px;
-    width: 65%;
-    background-color: white;
-}
-.sivi{
-    margin-top: 0px;
-    height: 100px;
-    width: 100%;
-    background-color: rgb(234,234,234);
-    display: flex;
-}
-.imeIprezime{
-    margin-top: 0px;
-    height: 100px;
-    width: 80%;
-    background-color: rgb(234,234,234);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 5%;
-}
-.bijeli{
-    height: 280px;
-    width: 100%;
-}
-.albert{
-    background-color: rgb(234,234,234);
-    margin-top: 10;
-    margin-bottom: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-.graphic{
-    margin-top: 5px;
-    color: rgb(134,138,155);
-    font-family: Arial, Helvetica, sans-serif;
-}
-.divCovjek{
-    height: 100px;
-    width: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.slikaCovjek{
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-}
-.textDivf{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -284,110 +334,106 @@ justify-content: center;
     justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
+  }
+  .gornjiFeed1{
+    width: 70%;
+  }
 }
-@media only screen and (max-width: 1024px){
-    .experience{
-        width: 380px;
-    }
-    .divTime{
-        width: 380px;
-    }
-    .div1{
-        width: 35%;
-        margin-left: 5px;
-    }
-    .border{
-        width: 230px;
-    }
-}
-@media only screen and (max-width: 450px){
-    #services{
-        height: 1700px;
-        width: 100%;
-        margin-top: 0px;
-    }
-    .div1{
-        width: 65%;
-    }
-    .donji{
-        height: 1200px;
-        flex-direction: column;
-        justify-content: unset;
-        align-items: center;
-    }
-    .border{
-        height: 8px;
-        width: 80%;
-        background-color: rgb(217,217,217);
-        margin-top: 40px;
-    }
-#portofolio{
-    height: 1400px;
-}
-.slikePort{
+@media only screen and (max-width: 750px) {
+  #services {
+    height: 1600px;
+    width: 100vw;
+    margin-top: 0px;
+  }
+  .qualitySer{
+    margin-left: 20px;
+  }
+  .div1 {
+    width: 65%;
+  }
+  .donji {
+    flex-direction: column;
+    justify-content: unset;
+    align-items: center;
+  }
+  .border {
+    width: 80%;
+    background-color: rgb(217, 217, 217);
+    margin-top: 40px;
+  }
+  .slikePort {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+  }
+#portofolio{
+  height: 1500px;
 }
-
-#timeline{
-height: 1450px;
-width: 100%;
+.gornjiPort{
+  width: 70%;
 }
-.downT{
-height: 650px;
-width: 100%;
-display: flex;
-align-items: center;
-flex-direction: column;
-}
-.leftTime{
-width: 100%;
-display: flex;
-flex-direction: column;
-}
-.divTime{
-height: 120px;
-width: 400px;
-background-color: rgb(247, 247, 247);
-border-left: 6px solid rgb(222, 222, 222);
-margin-bottom: 10px;
-margin-top: 10px;
-margin-right: 0px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.rightTime{
-width: 100%;
-display: flex;
-flex-direction: column;
-margin-left: 35px;
-margin-top: 15px;
-}
-.experience{
-    height: 70px;
+  #timeline {
+    height: 1350px;
+    width: 100vw;
+  }
+  .namePort{
+    margin-left: 10px;
+  }
+  .nameTime{
+    margin-left: 20px;
+  }
+  .downT {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .leftTime {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .divTime {
     width: 400px;
-    background-color: rgb(234,234,234);
+    background-color: rgb(247, 247, 247);
+    border-left: 6px solid rgb(222, 222, 222);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .rightTime {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+  }
+  .experience {
+    width: 400px;
+    background-color: rgb(234, 234, 234);
     margin-right: 0px;
     margin-bottom: 15px;
     display: flex;
     align-items: center;
-    margin-left: 0px
-}
-.education{
+    margin-left: 0px;
+  }
+  .education {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-}
-#feedback{
-    height: 1230px;
-    width: 100%;
-    background-color: rgb(247,247,247);
-}
-.bijeli{
-    height: 800px;
-    width: 100%;
-    background-color: white;
-}
+  }
+  .gornji{
+    width: 70%;
+  }
+  .sivi{
+    display: flex;
+    justify-content: space-between;
+  }
+
 }

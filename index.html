@@ -16,63 +16,80 @@
             <div class="logo">
                 <p class="ime">INES</p>
             </div>
-            <div class="menu">
-                <a href="#main">Home</a>
-                <a href="#description">About</a>
-                <a href="#services">Services</a>
-                <a href="#portofolio">Portofolio</a>
-                <a href="#timeline">Timeline</a>
-                <a href="#feedback">Testimonial</a>
-                <a href="#blog">News</a>
-                <a href="#contact123">Contact</a>
-            </div>
+            <div class="mobile-container"></div>
+<div id="mySidepanel" class="topnav">
+    <a href="#home" class="active"></a>
+    <div id="myLinks">
+        <a href="#main">Home</a>
+        <a href="#description">About</a>
+        <a href="#services">Services</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#feedback">Testimonial</a>
+        <a href="#blog">News</a>
+        <a href="#contact123">Contact</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
         </div>
         <div id="main">
             <div class="image">
-                <img class="slika" src="./slike/IMG_4177 copy.jpeg">
+                <img class="slika" src="./slike/IMG_2397.jpg">
             </div>
             <div class="Ime">
                 <h3 class="name">INES</h3>
                 <h3 class="prezime">DUJIĆ</h3>
                 <div class="div">
-                    <p class="text">Ui designer</p>
-                    <p class="text">Web developer</p>
-                    <p class="text">SEO Optimizer</p>
+                    <p class="text">-   Web developer    -</p>
                 </div>
             </div>
         </div>
         <div id="description">
             <div class="left">
                 <p class="myName">⸻    INES DUJIĆ</p>
-                <p class="job">Ui Designer based in <br>NYC, USA since 2020</p>
-                <p class="paragraf">My name is Ines Dujić and I am  UI Designer, and I'm<br> very passonate and dedicated to my work. With 3 years <br>expirience as a professional UI desinger, I have acquired <br> the skills and knowladge necessary to make your project a <br> success. I enjoy every step of the design process, from<br> discussion and collaboration.</p>
+                <p class="job">Web developer based in <br>Travnik, BiH since 2022</p>
+                <p class="paragraf">My name is Ines Dujić and I am  Web developer, and I'm<br> very passonate and dedicated to my work. With 2 years <br>expirience as a web developer, I have acquired <br> the skills and knowladge necessary to make your project a <br> success. I enjoy every step of the design process, from<br> discussion and collaboration.</p>
                 <div class="button">
                     <p class="downloadText">Download CV</p>
                 </div>
             </div>
             <div class="right">
-                <div class="details">
+                <div class="details" onclick="cont()" >
                     <p class="personal">PERSONAL DETAILS</p>
                 </div>
-                <div class="contact">
-                    <div class="jaaa">
-                        <p class="bbbb">Name:</p>
-                        <p class="aaaa">Ines Dujić</p>
-                    </div>
-                    <div class="jaaa">
-                        <p class="bbbbb">Email:</p>
-                        <p class="aaaaa">inesdujic17@gmail.com</p>
-                    </div>
-                    <div class="jaaa">
-                        <p class="bbbbbb">Phone:</p>
-                        <p class="aaaaaa">062 - 374 - 027</p>
-                    </div>
+                <div id ="contact" >
+                  <div class="leftInf">
+                <p>Name:</p>
+                <p>Email:</p>
+                <p>Phone:</p>
+                  </div>
+                  <div class="rightInf">
+                    <p>Ines Dujić</p>
+                    <p>inesdujic17@gmail.com</p>
+                    <p>062 - 374 - 027</p>
+                  </div>
                 </div>
-                <div class="skills">
+                <div class="skills" onclick="cont1()">
                     <p class="language">PROGRAMMING SKILLS</p>
                 </div>
-                <div class="skills">
+                <div id="programming">
+                    <div class="jezici">
+                        <img class="html" src="./slike/download.png">
+                        <img class="html" src="./slike/download-1.png">
+                        <img class="html" src="./slike/download-2.png">
+                    </div>
+                 </div>
+                <div class="skills" onclick="cont2()">
                     <p class="language">LANGUAGE SKILLS</p>
+                </div>
+                <div id="države">
+                    <div class="jezici">
+                        <img class="html1" src="./slike/download-3.png" >
+                        <img  class="html1"  src="./slike/download-4.png" >
+                        <img  class="html1"  src="./slike/download-5.png" >
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,7 +100,7 @@
             </div>
             <div class="donji">
                 <div class="div1">
-                    <i class="fa fa-object-ungroup" style="font-size: 50px; margin-left:40px;margin-top:50px;color:rgb(153,153,153);"></i>
+                    <i class="fa fa-object-ungroup" style="font-size: 50px;margin-top:50px;color:rgb(153,153,153);"></i>
                     <p class="naslovi">Creative Design</p>
                     <p class="linija">_________________________</p>
                     <ul>
@@ -94,7 +111,7 @@
                     <div class="border"></div>
                     </div>
                 <div class="div1">
-                    <i class="fa fa-desktop" style="font-size: 50px; margin-left:40px;margin-top:50px;color:rgb(153,153,153);"></i>
+                    <i class="fa fa-desktop" style="font-size: 50px;margin-top:50px;color:rgb(153,153,153);"></i>
                     <p class="naslovi">Web Development</p>
                     <p class="linija">_________________________</p>
                     <ul>
@@ -105,7 +122,7 @@
                     <div class="border"></div>
                 </div>
                 <div class="div1">
-                    <i class="fa fa-mobile-phone" style="font-size: 50px; margin-left:40px;margin-top:50px;color:rgb(153,153,153);"></i>
+                    <i class="fa fa-mobile-phone" style="font-size: 50px;margin-top:50px;color:rgb(153,153,153);"></i>
                     <p class="naslovi">Mobile Application</p>
                     <p class="linija">_________________________</p>
                     <ul>
@@ -139,30 +156,30 @@
                         <p class="education">EXPERIENCE</p>
                     </div>
                     <div class="divTime">
-                        <div>
-                            <p class="naslovTime">Envato Market</p>
-                            <p class="podnaslov">Web designer</p>
+                        <div class="wtf">
+                            <p class="naslovTime">It Reboot </p>
+                            <p class="podnaslov">Drugo mjesto</p>
                         </div>
                         <div class="maliDiv">
-                            <p>2020 - now</p>
+                            <p>2023</p>
                         </div>
                     </div>
                     <div class="divTime">
-                        <div>
-                            <p class="naslovTime">Behance</p>
-                            <p class="podnaslov">SEO Optimizer</p>
+                        <div class="wtf">
+                            <p class="naslovTime">Košarka</p>
+                            <p class="podnaslov">KK "Travnik"</p>
                         </div>
                         <div>
-                            <p class="maliDiv">2018 - 2020</p>
+                            <p class="maliDiv">2021 - </p>
                         </div>
                     </div>
                     <div class="divTime">
-                        <div>
-                        <p class="naslovTime">Colorlib</p>
-                        <p class="podnaslov">Theme Reviewer</p>
+                        <div class="wtf">
+                        <p class="naslovTime">Karate</p>
+                        <p class="podnaslov">KK "Travnik GS-TMT"</p>
                         </div>
-                        <div class="maliDiv" style="margin-left: 110px;">
-                            <p>2016 - 2018</p>
+                        <div class="maliDiv">
+                            <p>2016 - 2022</p>
                         </div>
                     </div>
                 </div>
@@ -171,37 +188,37 @@
                         <p class="education">EDUCATION</p>
                     </div>
                     <div class="divTime">
-                        <div>
-                            <p class="naslovTime">Univercity of Texas</p>
-                            <p class="podnaslov">Master of Design</p>
+                        <div class="wtf">
+                            <p class="naslovTime">KŠC "Petar Barbarić"</p>
+                            <p class="podnaslov">Osnovna škola</p>
                         </div>
-                        <div>
-                            <p class="maliDiv">2020 - 2017</p>
-                        </div>
-                    </div>
-                    <div class="divTime">
-                        <div>
-                            <p class="naslovTime">Webster College</p>
-                            <p class="podnaslov">UI/UX Design</p>
-                        </div>
-                        <div>
-                            <p class="maliDiv"  style="margin-left: 140px;">2017 - 2015</p>
+                        <div class="wtf">
+                            <p class="maliDiv">2013 - 2022</p>
                         </div>
                     </div>
                     <div class="divTime">
-                        <div>
-                            <p class="naslovTime">Github Club</p>
-                            <p class="podnaslov">Web Sertification</p>
+                        <div class="wtf">
+                            <p class="naslovTime">KŠC "Petar Barbarić"</p>
+                            <p class="podnaslov">Srednja škola</p>
                         </div>
                         <div>
-                            <p class="maliDiv" style="margin-left: 140px;">2013 - 2015</p>
+                            <p class="maliDiv" >2022 - 2026</p>
+                        </div>
+                    </div>
+                    <div class="divTime">
+                        <div class="wtf">
+                            <p class="naslovTime">Mali Programer</p>
+                            <p class="podnaslov">Web development</p>
+                        </div>
+                        <div>
+                            <p class="maliDiv">2022 - </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div id="feedback">
-            <div class="gornjiFeed">
+            <div class="gornjiFeed1">
                 <p class="textSer">⸻    TESTIMONIAL</p>
                 <p class="namePort">Valuable Feedback</p>
             </div>
@@ -225,7 +242,16 @@
                         <i class="fa fa-star" style="font-size:20px; color: rgb(153,153,153);"></i>
                         </div>
                         <div class="textDivf">
-                           <p class="textFeed">I generally begin with what people are doing well. It’s too deflating for them if you start by immediately identifying all the <br>things that are wrong. There’s a tipping point when any more negative feedback could shatter their confidence. If it’s <br>really bad work, I ask them to stop and have a different kind of discussion. There are times where you may need just to<br> say, ‘Stop, we need to reset. I generally begin with what people are doing well. It’s too deflating for them if you start by <br>immediately identifying all the things that are wrong.</p>
+                           <p class="textFeed">Hey everyone,
+
+                            I just have to take a moment to highlight my friend Ines's talent as a web developer – it's truly remarkable.
+                            And when it comes to problem-solving, Ines is a wizard. They tackle challenges with a methodical approach and innovative thinking, ensuring every hurdle is overcome with finesse.
+                            
+                            But perhaps what I admire most is their genuine passion for web development. Ines doesn't just code; they craft digital experiences that leave a lasting impression.
+                            
+                            For anyone seeking a talented web developer look no further than Ines. They're the real deal.
+                            
+                            Keep shining bright, Ines! Your next masterpiece awaits.</p>
                         </div>
                     </div>
                 </div>
@@ -295,7 +321,7 @@
         </div>
         <div id="contact123">
             <div class="gornjiCon">
-                <p class="textCon">⸻    BLOG</p>
+                <p class="textCon">⸻   BLOG</p>
                 <p class="nameCon">Get in Touch</p>
             </div>
             <div class="donjiCon">
@@ -303,8 +329,8 @@
                     <p class="pcon">WORKING DAYS</p>
                 </div>
                 <div class="bijeliCon">
-                    <p class="bijelitext">Our company provides services for our customers between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday. You can</p>
-                    <p class="bijelitext">visit or call during these days.</p>
+                    <p class="bijelitext">Our company provides services for our customers between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday. </p>
+                    <p class="bijelitext">Visit or call during these days.</p>
                     <p class="bijelitext">Weekends: Saturday and Sunday.</p>
                 </div>
                 <div class="prviCon">
@@ -328,5 +354,7 @@
             </div>
         </div>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
